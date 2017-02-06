@@ -22,6 +22,7 @@ body{
 	margin:50px 30px 0px 100px;
 	width:700px;
 	height: all;
+	padding:1em;
 }
 
 .content2{
@@ -32,6 +33,7 @@ body{
 	margin-top:50px;
 	width:210px;
 	height: all;
+	padding:2em;
 }
 
 
@@ -60,8 +62,8 @@ h1{
 h2{
 	font-family:"Georgia", Times, times new roman, serif;
 	color: #40aaa5;
-	padding: 10px;
-	width:85%;
+	padding: 7px;
+	/*width:100%; */
 	margin-left:40px;
 	font-size:20px;
 	border-bottom:2px solid #cccccc;
@@ -70,9 +72,9 @@ h2{
 h3{
 	font-family:"Georgia", Times, times new roman, serif;
 	color: #40aaa5;
-	padding: 10px;
-	width:90%;
-	margin-left:20px;
+	/*padding: 5px; */
+	width:100%;
+	/* margin-left:10px; */
 	font-size:16px;
 	border-bottom:2px solid #cccccc;
 }
@@ -84,16 +86,17 @@ h6{
 	margin:15px;
 }
 
-img{
+.myimg{
 	float:left;
 	margin:0px 15px 0px 15px;
 	margin-left:15px;
 	margin:right:50px;
 }
+*/
 
 p{
-	margin-left:15px;
-	margin-right:10px;
+	margin-left:20px;
+	margin-right:20px;
 }
 
 img.icon{
@@ -101,6 +104,34 @@ img.icon{
 	height:50px;
 	float:left;
 	margin:10px;
+}
+
+.gallery{
+	margin:20px;
+	float:left;
+}
+
+div.img {
+    margin: 20px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 300px;
+    height: auto;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+    background-color: #40aaa5;
+    color:white;
 }
 
 /* Remove margins and padding from the list, and add a black background color */
@@ -112,6 +143,34 @@ ul.topnav {
     padding: 10;
 }
 
+/* style for form division*/
+div.form{
+	width:500px;
+	margin-top:50px;
+}
+
+div.form form{
+	margin:30px;
+	height:auto;
+}
+
+}
+#textbox{
+	display:block;
+	overflow-wrap: auto;
+	margin:10px;
+	text-align:left;
+	color:blue;
+}
+
+/* style to customize sumbmit button - contact page */
+.submit{
+	background-color:#40aaa5;
+	width:100px;
+	padding:5px;
+	color:white;
+	margin-top:10px;
+}
 /* Float the list items side by side */
 
 ul.topnav li {float:right;
@@ -141,7 +200,6 @@ ul.topnav li.icon {display: none;}
 
 footer{
 	clear:both;
-	overflow:auto;
 	float:left;
 	margin-bottom:0px;
 	margin-top:20px;
